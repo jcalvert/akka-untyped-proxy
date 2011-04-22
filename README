@@ -1,0 +1,12 @@
+A quick and dirty and alpha library written by someone who read about Akka two days ago.
+
+The idea is pretty simple: wrap existing legacy code with proxies to utilize the concurrency provided by the activeobject pattern.
+For very procedural, long running code, this could give serious speed boost.
+
+Known issues not handled gracefully: 
+Does not play well with primitive or final return types. 
+
+Things to do: 
+all the beautiful Akka control/registry stuff
+cache the proxy factories
+Come with a scenario that provides some real tests
